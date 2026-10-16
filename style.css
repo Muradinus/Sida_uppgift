@@ -47,7 +47,7 @@
 }
 .sida3list {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     text-align: center;
 
 }
@@ -55,6 +55,7 @@
 .sida3list li {
     font-size: 20px;
     margin-bottom: 20px;
+
 }
 .sida3list li:nth-child(even) {
     font-weight: bold;
@@ -68,32 +69,19 @@
     overflow: hidden;
 }
 
-
-.sida3bild_note {
-    grid-column: 3;
-    grid-row: 2;
-    width: 150px;
+.sida3bild_låtar {
+    grid-column: 2;
+    grid-row: 3;
+    width: 400px;
     height: auto;
     justify-self: center;
     margin: 0;
 }
 
-.sida3bild_fire {
-    grid-column: 2;
-    grid-row: 3;
-    width: 100px;
-    height: auto;
-    justify-self: right;
-    margin: 0;
-}
 
-.sida3bild_speaker {
-    grid-column: 2;
-    grid-row: 3;
-    width: 100px;
-    height: auto;
-    justify-self: center;
-}
+
+
+
 
 .sida2container {
     display: grid;
